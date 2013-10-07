@@ -55,7 +55,7 @@ function loadMenu() {
 /** Gets the content of a page **/
 function GetPage(pUrl, pSuccessCallBack, pErrorCallBack){
     $.ajax({
-            type: "POST",
+            type: "GET",
             url: pUrl,
             dataType: 'html',
             async: true,
